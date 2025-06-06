@@ -1,0 +1,24 @@
+AI News Summarizer with Fact-Checking
+
+This project is a prototype that processes a news article, generates a concise summary using a transformer-based language model, extracts factual claims, and assigns simulated credibility scores to each claim.
+
+Features
+- Summarizes article content using Hugging Face's `bart-large-cnn` model
+- Identifies claim-worthy sentences using keyword-based heuristics
+- Simulates credibility scoring (High / Medium / Low) for each extracted claim
+- Outputs a structured Markdown-style report containing the summary and claim assessments
+
+Tech Stack
+- Python 3
+- Hugging Face Transformers
+- NLTK (sentence tokenization)
+- Jupyter Notebook (for interactive development)
+
+How to Use
+1. Open the notebook `ai_news_summarizer.ipynb`
+2. Replace the sample article text with any news article of your choice
+3. Run the notebook cells sequentially to:
+   - Generate a summary
+   - Extract factual claims
+   - Assign simulated credibility scores
+   - Print a structured report
