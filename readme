@@ -15,7 +15,7 @@ Tech Stack
 - Jupyter Notebook (for interactive development)
 
 How to Use
-1. Open the notebook `ai_news_summarizer.ipynb`
+1. Open the notebook `ai news summarizer prototype.ipynb`
 2. Replace the sample article text with any news article of your choice
 3. Run the notebook cells sequentially to:
    - Generate a summary
